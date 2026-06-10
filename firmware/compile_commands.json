@@ -1,0 +1,1292 @@
+[
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_disp.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_disp.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_disp.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_disp.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_event.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_event.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_event.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_event.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_group.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_group.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_group.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_group.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_indev.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_indev.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_indev.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_indev.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_indev_scroll.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_indev_scroll.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_indev_scroll.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_indev_scroll.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_class.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_class.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_class.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_class.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_draw.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_draw.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_draw.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_draw.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_pos.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_pos.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_pos.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_pos.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_scroll.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_scroll.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_scroll.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_scroll.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_style.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_style.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_style.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_style.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_style_gen.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_style_gen.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_style_gen.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_style_gen.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_obj_tree.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_obj_tree.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_obj_tree.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_obj_tree.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_refr.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_refr.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_refr.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_refr.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/core/lv_theme.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/core/lv_theme.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/core/lv_theme.c",
+        "output": ".pio/build/emulator/lib774/lvgl/core/lv_theme.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/arm2d/lv_gpu_arm2d.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/arm2d/lv_gpu_arm2d.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/arm2d/lv_gpu_arm2d.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/arm2d/lv_gpu_arm2d.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_arc.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_arc.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_arc.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_arc.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_img.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_img.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_img.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_img.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_label.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_label.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_label.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_label.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_layer.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_layer.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_layer.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_layer.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_line.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_line.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_line.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_line.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_mask.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_mask.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_mask.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_mask.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_rect.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_rect.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_rect.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_rect.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_transform.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_transform.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_transform.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_transform.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_draw_triangle.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_draw_triangle.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_draw_triangle.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_draw_triangle.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_img_buf.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_img_buf.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_img_buf.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_img_buf.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_img_cache.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_img_cache.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_img_cache.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_img_cache.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/lv_img_decoder.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/lv_img_decoder.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/lv_img_decoder.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/lv_img_decoder.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_draw_pxp.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_draw_pxp.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_draw_pxp_blend.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_draw_pxp_blend.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_gpu_nxp_pxp.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_gpu_nxp_pxp.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_arc.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_arc.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_blend.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_blend.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_line.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_line.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_rect.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_draw_vglite_rect.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_vglite_buf.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_vglite_buf.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_vglite_utils.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/nxp/vglite/lv_vglite_utils.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/renesas/lv_gpu_d2_draw_label.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/renesas/lv_gpu_d2_draw_label.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/renesas/lv_gpu_d2_ra6m3.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/renesas/lv_gpu_d2_ra6m3.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_arc.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_arc.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_arc.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_arc.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_bg.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_bg.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_bg.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_bg.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_composite.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_composite.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_composite.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_composite.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_img.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_img.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_img.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_img.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_label.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_label.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_label.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_label.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_layer.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_layer.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_layer.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_layer.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_line.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_line.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_line.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_line.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_mask.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_mask.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_mask.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_mask.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_polygon.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_polygon.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_rect.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_rect.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_rect.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_rect.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_stack_blur.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_stack_blur.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_texture_cache.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_texture_cache.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_utils.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_utils.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sdl/lv_draw_sdl_utils.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sdl/lv_draw_sdl_utils.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/stm32_dma2d/lv_gpu_stm32_dma2d.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/stm32_dma2d/lv_gpu_stm32_dma2d.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_arc.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_arc.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_arc.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_arc.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_blend.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_blend.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_blend.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_blend.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_dither.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_dither.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_dither.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_dither.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_gradient.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_gradient.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_gradient.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_gradient.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_img.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_img.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_img.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_img.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_layer.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_layer.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_layer.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_layer.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_letter.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_letter.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_letter.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_letter.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_line.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_line.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_line.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_line.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_polygon.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_polygon.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_polygon.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_polygon.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_rect.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_rect.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_rect.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_rect.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_transform.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_transform.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/sw/lv_draw_sw_transform.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/sw/lv_draw_sw_transform.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c",
+        "output": ".pio/build/emulator/lib774/lvgl/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/layouts/flex/lv_flex.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/layouts/flex/lv_flex.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/layouts/flex/lv_flex.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/layouts/flex/lv_flex.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/layouts/grid/lv_grid.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/layouts/grid/lv_grid.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/layouts/grid/lv_grid.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/layouts/grid/lv_grid.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/bmp/lv_bmp.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/bmp/lv_bmp.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/bmp/lv_bmp.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/bmp/lv_bmp.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/ffmpeg/lv_ffmpeg.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/ffmpeg/lv_ffmpeg.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/freetype/lv_freetype.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/freetype/lv_freetype.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/freetype/lv_freetype.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/freetype/lv_freetype.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_fatfs.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_fatfs.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_littlefs.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_littlefs.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_posix.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_posix.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_stdio.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_stdio.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_win32.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/fsdrv/lv_fs_win32.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/gif/gifdec.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/gif/gifdec.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/gif/gifdec.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/gif/gifdec.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/gif/lv_gif.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/gif/lv_gif.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/gif/lv_gif.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/gif/lv_gif.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/png/lodepng.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/png/lodepng.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/png/lodepng.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/png/lodepng.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/png/lv_png.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/png/lv_png.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/png/lv_png.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/png/lv_png.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/qrcode/lv_qrcode.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/qrcode/lv_qrcode.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/qrcode/lv_qrcode.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/qrcode/lv_qrcode.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/qrcode/qrcodegen.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/qrcode/qrcodegen.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/qrcode/qrcodegen.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/qrcode/qrcodegen.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/rlottie/lv_rlottie.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/rlottie/lv_rlottie.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/rlottie/lv_rlottie.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/rlottie/lv_rlottie.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/sjpg/lv_sjpg.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/sjpg/lv_sjpg.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/sjpg/lv_sjpg.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/sjpg/lv_sjpg.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/sjpg/tjpgd.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/sjpg/tjpgd.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/sjpg/tjpgd.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/sjpg/tjpgd.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/libs/tiny_ttf/lv_tiny_ttf.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/libs/tiny_ttf/lv_tiny_ttf.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/lv_extra.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/lv_extra.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/lv_extra.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/lv_extra.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/fragment/lv_fragment.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/fragment/lv_fragment.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/fragment/lv_fragment.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/fragment/lv_fragment.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/fragment/lv_fragment_manager.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/fragment/lv_fragment_manager.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/fragment/lv_fragment_manager.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/fragment/lv_fragment_manager.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/gridnav/lv_gridnav.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/gridnav/lv_gridnav.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/gridnav/lv_gridnav.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/gridnav/lv_gridnav.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/ime/lv_ime_pinyin.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/ime/lv_ime_pinyin.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/ime/lv_ime_pinyin.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/ime/lv_ime_pinyin.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/imgfont/lv_imgfont.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/imgfont/lv_imgfont.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/imgfont/lv_imgfont.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/imgfont/lv_imgfont.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/monkey/lv_monkey.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/monkey/lv_monkey.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/monkey/lv_monkey.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/monkey/lv_monkey.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/msg/lv_msg.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/msg/lv_msg.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/msg/lv_msg.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/msg/lv_msg.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/others/snapshot/lv_snapshot.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/others/snapshot/lv_snapshot.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/others/snapshot/lv_snapshot.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/others/snapshot/lv_snapshot.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/themes/basic/lv_theme_basic.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/themes/basic/lv_theme_basic.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/themes/basic/lv_theme_basic.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/themes/basic/lv_theme_basic.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/themes/default/lv_theme_default.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/themes/default/lv_theme_default.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/themes/default/lv_theme_default.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/themes/default/lv_theme_default.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/themes/mono/lv_theme_mono.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/themes/mono/lv_theme_mono.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/themes/mono/lv_theme_mono.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/themes/mono/lv_theme_mono.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/animimg/lv_animimg.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/animimg/lv_animimg.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/animimg/lv_animimg.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/animimg/lv_animimg.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/calendar/lv_calendar.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/calendar/lv_calendar.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/calendar/lv_calendar.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/calendar/lv_calendar.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/calendar/lv_calendar_header_arrow.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/calendar/lv_calendar_header_arrow.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/calendar/lv_calendar_header_dropdown.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/calendar/lv_calendar_header_dropdown.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/chart/lv_chart.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/chart/lv_chart.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/chart/lv_chart.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/chart/lv_chart.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/colorwheel/lv_colorwheel.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/colorwheel/lv_colorwheel.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/imgbtn/lv_imgbtn.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/imgbtn/lv_imgbtn.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/keyboard/lv_keyboard.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/keyboard/lv_keyboard.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/keyboard/lv_keyboard.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/keyboard/lv_keyboard.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/led/lv_led.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/led/lv_led.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/led/lv_led.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/led/lv_led.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/list/lv_list.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/list/lv_list.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/list/lv_list.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/list/lv_list.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/menu/lv_menu.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/menu/lv_menu.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/menu/lv_menu.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/menu/lv_menu.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/meter/lv_meter.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/meter/lv_meter.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/meter/lv_meter.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/meter/lv_meter.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/msgbox/lv_msgbox.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/msgbox/lv_msgbox.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/msgbox/lv_msgbox.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/msgbox/lv_msgbox.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/span/lv_span.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/span/lv_span.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/span/lv_span.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/span/lv_span.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/spinbox/lv_spinbox.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/spinbox/lv_spinbox.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/spinbox/lv_spinbox.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/spinbox/lv_spinbox.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/spinner/lv_spinner.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/spinner/lv_spinner.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/spinner/lv_spinner.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/spinner/lv_spinner.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/tabview/lv_tabview.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/tabview/lv_tabview.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/tabview/lv_tabview.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/tabview/lv_tabview.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/tileview/lv_tileview.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/tileview/lv_tileview.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/tileview/lv_tileview.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/tileview/lv_tileview.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/extra/widgets/win/lv_win.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/extra/widgets/win/lv_win.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/extra/widgets/win/lv_win.c",
+        "output": ".pio/build/emulator/lib774/lvgl/extra/widgets/win/lv_win.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_dejavu_16_persian_hebrew.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_dejavu_16_persian_hebrew.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_fmt_txt.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_fmt_txt.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_fmt_txt.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_fmt_txt.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_loader.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_loader.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_loader.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_loader.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_10.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_10.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_10.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_10.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_12.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_12.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_12.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_12.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_12_subpx.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_12_subpx.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_12_subpx.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_12_subpx.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_14.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_14.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_14.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_14.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_16.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_16.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_16.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_16.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_18.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_18.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_18.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_18.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_20.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_20.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_20.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_20.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_22.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_22.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_22.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_22.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_24.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_24.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_24.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_24.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_26.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_26.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_26.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_26.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_28.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_28.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_28.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_28.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_28_compressed.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_28_compressed.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_28_compressed.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_28_compressed.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_30.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_30.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_30.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_30.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_32.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_32.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_32.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_32.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_34.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_34.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_34.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_34.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_36.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_36.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_36.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_36.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_38.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_38.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_38.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_38.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_40.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_40.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_40.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_40.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_42.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_42.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_42.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_42.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_44.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_44.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_44.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_44.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_46.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_46.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_46.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_46.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_48.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_48.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_48.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_48.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_8.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_8.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_montserrat_8.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_montserrat_8.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_simsun_16_cjk.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_simsun_16_cjk.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_simsun_16_cjk.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_simsun_16_cjk.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_unscii_16.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_unscii_16.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_unscii_16.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_unscii_16.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/font/lv_font_unscii_8.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/font/lv_font_unscii_8.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/font/lv_font_unscii_8.c",
+        "output": ".pio/build/emulator/lib774/lvgl/font/lv_font_unscii_8.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/hal/lv_hal_disp.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/hal/lv_hal_disp.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/hal/lv_hal_disp.c",
+        "output": ".pio/build/emulator/lib774/lvgl/hal/lv_hal_disp.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/hal/lv_hal_indev.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/hal/lv_hal_indev.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/hal/lv_hal_indev.c",
+        "output": ".pio/build/emulator/lib774/lvgl/hal/lv_hal_indev.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/hal/lv_hal_tick.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/hal/lv_hal_tick.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/hal/lv_hal_tick.c",
+        "output": ".pio/build/emulator/lib774/lvgl/hal/lv_hal_tick.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_anim.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_anim.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_anim.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_anim.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_anim_timeline.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_anim_timeline.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_anim_timeline.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_anim_timeline.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_area.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_area.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_area.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_area.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_async.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_async.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_async.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_async.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_bidi.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_bidi.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_bidi.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_bidi.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_color.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_color.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_color.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_color.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_fs.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_fs.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_fs.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_fs.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_gc.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_gc.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_gc.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_gc.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_ll.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_ll.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_ll.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_ll.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_log.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_log.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_log.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_log.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_lru.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_lru.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_lru.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_lru.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_math.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_math.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_math.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_math.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_mem.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_mem.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_mem.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_mem.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_printf.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_printf.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_printf.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_printf.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_style.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_style.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_style.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_style.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_style_gen.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_style_gen.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_style_gen.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_style_gen.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_templ.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_templ.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_templ.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_templ.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_timer.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_timer.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_timer.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_timer.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_tlsf.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_tlsf.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_tlsf.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_tlsf.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_txt.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_txt.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_txt.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_txt.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_txt_ap.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_txt_ap.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_txt_ap.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_txt_ap.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/misc/lv_utils.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/misc/lv_utils.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/misc/lv_utils.c",
+        "output": ".pio/build/emulator/lib774/lvgl/misc/lv_utils.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_arc.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_arc.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_arc.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_arc.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_bar.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_bar.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_bar.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_bar.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_btn.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_btn.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_btn.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_btn.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_btnmatrix.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_btnmatrix.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_btnmatrix.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_btnmatrix.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_canvas.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_canvas.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_canvas.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_canvas.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_checkbox.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_checkbox.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_checkbox.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_checkbox.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_dropdown.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_dropdown.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_dropdown.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_dropdown.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_img.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_img.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_img.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_img.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_label.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_label.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_label.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_label.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_line.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_line.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_line.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_line.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_objx_templ.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_objx_templ.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_objx_templ.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_objx_templ.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_roller.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_roller.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_roller.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_roller.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_slider.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_slider.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_slider.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_slider.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_switch.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_switch.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_switch.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_switch.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_table.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_table.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_table.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_table.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib774/lvgl/widgets/lv_textarea.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lvgl/src/widgets/lv_textarea.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lvgl/src/widgets/lv_textarea.c",
+        "output": ".pio/build/emulator/lib774/lvgl/widgets/lv_textarea.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/GC9A01.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/GC9A01.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/GC9A01.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/GC9A01.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/ILI9341.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/ILI9341.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/ILI9341.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/ILI9341.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/R61581.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/R61581.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/R61581.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/R61581.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/SHARP_MIP.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/SHARP_MIP.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/SHARP_MIP.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/SHARP_MIP.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/SSD1963.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/SSD1963.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/SSD1963.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/SSD1963.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/ST7565.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/ST7565.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/ST7565.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/ST7565.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/UC1610.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/UC1610.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/UC1610.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/UC1610.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/drm.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/drm.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/drm.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/drm.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/display/fbdev.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/display/fbdev.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/display/fbdev.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/display/fbdev.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/gtkdrv/gtkdrv.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/gtkdrv/gtkdrv.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/gtkdrv/gtkdrv.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/gtkdrv/gtkdrv.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/indev/AD_touch.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/indev/AD_touch.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/indev/AD_touch.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/indev/AD_touch.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/indev/FT5406EE8.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/indev/FT5406EE8.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/indev/FT5406EE8.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/indev/FT5406EE8.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/indev/XPT2046.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/indev/XPT2046.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/indev/XPT2046.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/indev/XPT2046.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/indev/evdev.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/indev/evdev.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/indev/evdev.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/indev/evdev.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/indev/libinput.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/indev/libinput.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/indev/libinput.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/indev/libinput.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/indev/xkb.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/indev/xkb.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/indev/xkb.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/indev/xkb.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/sdl/sdl.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/sdl/sdl.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/sdl/sdl.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/sdl/sdl.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/sdl/sdl_common.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/sdl/sdl_common.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/sdl/sdl_common.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/sdl/sdl_common.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/sdl/sdl_gpu.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/sdl/sdl_gpu.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/sdl/sdl_gpu.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/sdl/sdl_gpu.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/wayland/wayland.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/wayland/wayland.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/wayland/wayland.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/wayland/wayland.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/win32drv/win32drv.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/win32drv/win32drv.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/win32drv/win32drv.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/win32drv/win32drv.o"
+    },
+    {
+        "command": "/usr/bin/gcc -o .pio/build/emulator/lib067/lv_drivers/win_drv.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include .pio/libdeps/emulator/lv_drivers/win_drv.c",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": ".pio/libdeps/emulator/lv_drivers/win_drv.c",
+        "output": ".pio/build/emulator/lib067/lv_drivers/win_drv.o"
+    },
+    {
+        "command": "/usr/bin/g++ -o .pio/build/emulator/src/main.o -c -DPLATFORMIO=60119 -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DUSE_SDL -I.pio/libdeps/emulator/lv_drivers -I.pio/libdeps/emulator/lvgl -I.pio/libdeps/emulator/lvgl/src -Isrc -I/usr/local/include -I/opt/homebrew/include src/main.cpp",
+        "directory": "/Users/maxlimscrimali/Desktop/Projects/Digital Shifter Knob/firmware",
+        "file": "src/main.cpp",
+        "output": ".pio/build/emulator/src/main.o"
+    }
+]
