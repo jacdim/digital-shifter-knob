@@ -163,12 +163,61 @@ void loop() {
 
     GearState newGear = determineGear(valX, valY);
 
+    static unsigned long neutralStartTime = millis();
+    static bool demoModeActive = false;
+    static unsigned long lastDemoCycleTime = 0;
+    static int demoGearIndex = 0;
+
+    // Check if we shifted out of neutral
+    if (newGear != GEAR_NEUTRAL) {
+        if (demoModeActive) {
+            demoModeActive = false; // Instantly cancel demo mode
+            // Force display update back to the real gear
+            updateDisplayGear(getGearString(newGear));
+        }
+        neutralStartTime = 0; // Reset the idle timer
+    }
+
+    // Normal gear change logic
     if (newGear != currentGear) {
         currentGear = newGear;
         String gearStr = getGearString(currentGear);
         Serial.println("Gear changed: " + gearStr);
-        updateDisplayGear(gearStr);
+        
+        // Only update display if demo mode isn't hijacking it
+        if (!demoModeActive) {
+            updateDisplayGear(gearStr);
+        }
+        
         ble.notifyGear(gearStr);
+
+        // Start the idle timer if we just shifted into Neutral
+        if (currentGear == GEAR_NEUTRAL) {
+            neutralStartTime = millis();
+        }
+    }
+
+    // Demo Mode Logic
+    if (currentGear == GEAR_NEUTRAL) {
+        // If we've been in neutral for > 2 seconds, activate demo mode
+        if (!demoModeActive && neutralStartTime > 0 && (millis() - neutralStartTime > 2000)) {
+            demoModeActive = true;
+            demoGearIndex = 0;
+            lastDemoCycleTime = 0; // Trigger first cycle immediately
+            Serial.println("Entering Demo Mode...");
+        }
+
+        if (demoModeActive) {
+            // Cycle the display every 800ms
+            if (millis() - lastDemoCycleTime > 800) {
+                lastDemoCycleTime = millis();
+                GearState demoSequence[] = {GEAR_NEUTRAL, GEAR_1, GEAR_2, GEAR_3, GEAR_4, GEAR_5, GEAR_6, GEAR_REVERSE};
+                String demoGearStr = getGearString(demoSequence[demoGearIndex]);
+                updateDisplayGear(demoGearStr);
+                
+                demoGearIndex = (demoGearIndex + 1) % 8; // Move to next gear in sequence
+            }
+        }
     }
 
     // Notify raw sensor data every 100ms for the Calibration App

@@ -1,155 +1,71 @@
 #include <Arduino.h>
-#include <WiFi.h>
-#include <ESPAsyncWebServer.h>
-#include <ArduinoJson.h>
-#include <LittleFS.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_GC9A01A.h>
+#include <SPI.h>
 
-// ⚠️ Replace with your actual Wi-Fi credentials
-const char* ssid = "OPTUS_A28891M";
-const char* password = "halts32249um";
-
-// The built-in orange LED on the XIAO ESP32S3 is on GPIO 21 (active-low)
+// ─── Onboard LED ───
 #define LED_PIN 21
 
-// LED state
-bool ledOn = false;
-bool blinkMode = false;
-int blinkRate = 500; // milliseconds
+// ─── Pin definitions (ALL on LEFT side of XIAO) ───
+#define TFT_MOSI 2   // D1 = row 1 -> connects to display SDA
+#define TFT_SCK  3   // D2 = row 2 -> connects to display SCL
+#define TFT_CS   4   // D3 = row 3 -> connects to display CS
+#define TFT_DC   5   // D4 = row 4 -> connects to display DC
+#define TFT_RST  6   // D5 = row 5 -> connects to display RST
 
-// For non-blocking blink
-unsigned long lastBlinkTime = 0;
-bool blinkState = false;
-
-// Create an HTTP server on port 80
-AsyncWebServer server(80);
-
-// ─── Helper: Add CORS headers to every response ───
-void addCorsHeaders(AsyncWebServerResponse* response) {
-  response->addHeader("Access-Control-Allow-Origin", "*");
-  response->addHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  response->addHeader("Access-Control-Allow-Headers", "Content-Type");
-}
-
-// ─── Helper: Send the current LED state as JSON ───
-void sendLedState(AsyncWebServerRequest* request) {
-  JsonDocument doc;
-  doc["on"] = ledOn;
-  doc["blink"] = blinkMode;
-  doc["blinkRate"] = blinkRate;
-  doc["temperature"] = temperatureRead();
-  doc["rssi"] = WiFi.RSSI();
-  doc["freeHeap"] = ESP.getFreeHeap();
-  doc["uptime"] = millis() / 1000;
-
-  String json;
-  serializeJson(doc, json);
-
-  AsyncWebServerResponse* response = request->beginResponse(200, "application/json", json);
-  addCorsHeaders(response);
-  request->send(response);
-}
-
-// ─── Apply the LED state ───
-void applyLed() {
-  if (!blinkMode) {
-    // Active-low: LOW = ON, HIGH = OFF
-    digitalWrite(LED_PIN, ledOn ? LOW : HIGH);
-  }
-}
+// Software SPI with explicit pins
+Adafruit_GC9A01A tft(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCK, TFT_RST);
 
 void setup() {
-  Serial.begin(115200);
-  delay(3000); // Wait for USB serial to connect
+    Serial.begin(115200);
+    delay(3000);
 
-  // Set up the LED pin
-  pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, HIGH); // Start with LED off (active-low)
+    pinMode(LED_PIN, OUTPUT);
+    digitalWrite(LED_PIN, HIGH);
 
-  // Mount LittleFS (holds the built React app)
-  if (!LittleFS.begin(true)) {
-    Serial.println("ERROR: Failed to mount LittleFS!");
-  } else {
-    Serial.println("LittleFS mounted successfully.");
-  }
+    Serial.println("=== GC9A01A TEST ===");
 
-  // Connect to Wi-Fi
-  WiFi.begin(ssid, password);
-  Serial.println("\nConnecting to WiFi...");
+    tft.begin();
+    tft.setRotation(0);
 
-  while (WiFi.status() != WL_CONNECTED) {
+    Serial.println("Filling RED...");
+    tft.fillScreen(GC9A01A_RED);
     delay(1000);
-    Serial.print(".");
-  }
 
-  Serial.println("\nConnected!");
-  Serial.print("IP Address: ");
-  Serial.println(WiFi.localIP());
+    Serial.println("Filling GREEN...");
+    tft.fillScreen(GC9A01A_GREEN);
+    delay(1000);
 
-  // ─── CORS preflight handler (browsers send OPTIONS before POST) ───
-  server.on("/api/led", HTTP_OPTIONS, [](AsyncWebServerRequest* request) {
-    AsyncWebServerResponse* response = request->beginResponse(204);
-    addCorsHeaders(response);
-    request->send(response);
-  });
+    Serial.println("Filling BLUE...");
+    tft.fillScreen(GC9A01A_BLUE);
+    delay(1000);
 
-  // ─── GET /api/led — Return current LED state ───
-  server.on("/api/led", HTTP_GET, [](AsyncWebServerRequest* request) {
-    sendLedState(request);
-  });
-
-  // ─── POST /api/led — Update LED state ───
-  // We collect the body manually since AsyncCallbackJsonWebHandler
-  // is not available in all library forks.
-  server.on("/api/led", HTTP_POST, 
-    // 1) Called when the request is complete (headers received, body collected)
-    [](AsyncWebServerRequest* request) {
-      // The body was already parsed in the onBody callback below.
-      // Just send back the current state.
-      sendLedState(request);
-    },
-    NULL, // no upload handler
-    // 2) onBody callback — receives the raw body data
-    [](AsyncWebServerRequest* request, uint8_t* data, size_t len, size_t index, size_t total) {
-      // Parse the JSON body
-      JsonDocument doc;
-      DeserializationError error = deserializeJson(doc, data, len);
-      if (error) {
-        Serial.printf("JSON parse error: %s\n", error.c_str());
-        return;
-      }
-
-      if (doc["on"].is<bool>()) {
-        ledOn = doc["on"].as<bool>();
-      }
-      if (doc["blink"].is<bool>()) {
-        blinkMode = doc["blink"].as<bool>();
-      }
-      if (doc["blinkRate"].is<int>()) {
-        blinkRate = doc["blinkRate"].as<int>();
-        if (blinkRate < 50) blinkRate = 50;
-        if (blinkRate > 5000) blinkRate = 5000;
-      }
-
-      applyLed();
-      Serial.printf("LED: on=%d, blink=%d, rate=%d\n", ledOn, blinkMode, blinkRate);
-    }
-  );
-
-  // ─── Serve the React app from LittleFS ───
-  server.serveStatic("/", LittleFS, "/").setDefaultFile("index.html");
-
-  server.begin();
-  Serial.println("Server started!");
+    Serial.println("Drawing text...");
+    tft.fillScreen(GC9A01A_BLACK);
+    tft.setTextColor(GC9A01A_WHITE);
+    tft.setTextSize(4);
+    tft.setCursor(85, 100);
+    tft.println("Hi!");
 }
 
+int colorIndex = 0;
+unsigned long lastSwitch = 0;
+
 void loop() {
-  // Handle blink mode with non-blocking timing
-  if (ledOn && blinkMode) {
-    unsigned long now = millis();
-    if (now - lastBlinkTime >= (unsigned long)blinkRate) {
-      lastBlinkTime = now;
-      blinkState = !blinkState;
-      digitalWrite(LED_PIN, blinkState ? LOW : HIGH);
+    digitalWrite(LED_PIN, LOW);
+    delay(500);
+    digitalWrite(LED_PIN, HIGH);
+    delay(500);
+
+    if (millis() - lastSwitch > 2000) {
+        lastSwitch = millis();
+        switch (colorIndex % 5) {
+            case 0: tft.fillScreen(GC9A01A_RED);    break;
+            case 1: tft.fillScreen(GC9A01A_GREEN);  break;
+            case 2: tft.fillScreen(GC9A01A_BLUE);   break;
+            case 3: tft.fillScreen(GC9A01A_YELLOW); break;
+            case 4: tft.fillScreen(GC9A01A_WHITE);  break;
+        }
+        colorIndex++;
     }
-  }
 }

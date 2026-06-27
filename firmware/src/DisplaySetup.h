@@ -14,23 +14,24 @@ public:
             auto cfg = _bus_instance.config();
             cfg.spi_host = SPI2_HOST;
             cfg.spi_mode = 0;
-            cfg.freq_write = 40000000;
+            cfg.freq_write = 20000000;
             cfg.freq_read  = 16000000;
-            cfg.spi_3wire  = true;
+            cfg.spi_3wire  = false;
             cfg.use_lock   = true;
             cfg.dma_channel = SPI_DMA_CH_AUTO;
-            cfg.pin_sclk = 7; // XIAO D8
-            cfg.pin_mosi = 9; // XIAO D10
+            // Left-side wiring we proved works!
+            cfg.pin_sclk = 3; // XIAO D2 (row 2)
+            cfg.pin_mosi = 2; // XIAO D1 (row 1)
             cfg.pin_miso = -1;
-            cfg.pin_dc   = 5; // XIAO D4
+            cfg.pin_dc   = 5; // XIAO D4 (row 4)
             _bus_instance.config(cfg);
             _panel_instance.setBus(&_bus_instance);
         }
 
         {
             auto cfg = _panel_instance.config();
-            cfg.pin_cs           = 4; // XIAO D3
-            cfg.pin_rst          = 6; // XIAO D5
+            cfg.pin_cs           = 4; // XIAO D3 (row 3)
+            cfg.pin_rst          = 6; // XIAO D5 (row 5)
             cfg.pin_busy         = -1;
             cfg.memory_width     = 240;
             cfg.memory_height    = 240;
@@ -81,12 +82,15 @@ static lv_color_t buf[screenWidth * screenHeight / 10];
 lv_obj_t * gear_label;
 
 void initDisplay() {
+    Serial.println("initDisplay: starting lv_init...");
     lv_init();
 
 #ifndef USE_SDL
+    Serial.println("initDisplay: starting lcd.init...");
     lcd.init();
     lcd.setBrightness(255);
     lcd.fillScreen(TFT_BLACK);
+    Serial.println("initDisplay: lcd init done, screen filled black.");
 #else
     sdl_init();
 #endif
@@ -114,13 +118,15 @@ void initDisplay() {
 #endif
 
     // Create a massive label for the gear
-    lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0x000000), LV_PART_MAIN);
+    lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0x050505), LV_PART_MAIN); // Slightly off-black for premium feel
     
     gear_label = lv_label_create(lv_scr_act());
-    lv_obj_set_style_text_color(gear_label, lv_color_hex(0xFFFFFF), LV_PART_MAIN);
-    // Note: To make it truly massive, a custom font should be compiled. 
-    // We'll use the largest built-in font for now and scale.
-    lv_obj_set_style_text_font(gear_label, &lv_font_montserrat_48, LV_PART_MAIN);
+    lv_obj_set_style_text_color(gear_label, lv_color_hex(0x00FF00), LV_PART_MAIN); // Default green for N
+    
+    // Declare and use the massive custom font
+    LV_FONT_DECLARE(ui_font_180);
+    lv_obj_set_style_text_font(gear_label, &ui_font_180, LV_PART_MAIN);
+    
     lv_label_set_text(gear_label, "N");
     lv_obj_center(gear_label);
 }
@@ -129,6 +135,16 @@ void initDisplay() {
 void updateDisplayGear(String gear) {
     if (gear_label) {
         lv_label_set_text(gear_label, gear.c_str());
+        
+        // Dynamic colors based on the gear
+        if (gear == "N") {
+            lv_obj_set_style_text_color(gear_label, lv_color_hex(0x00FF33), LV_PART_MAIN); // Vibrant Green
+        } else if (gear == "R") {
+            lv_obj_set_style_text_color(gear_label, lv_color_hex(0xFF2222), LV_PART_MAIN); // Bright Red
+        } else {
+            lv_obj_set_style_text_color(gear_label, lv_color_hex(0xE0F7FA), LV_PART_MAIN); // Ice Blue/White for gears
+        }
+        
         lv_obj_center(gear_label);
     }
 }
@@ -137,6 +153,15 @@ void updateDisplayGear(String gear) {
 void updateDisplayGear(std::string gear) {
     if (gear_label) {
         lv_label_set_text(gear_label, gear.c_str());
+        
+        if (gear == "N") {
+            lv_obj_set_style_text_color(gear_label, lv_color_hex(0x00FF33), LV_PART_MAIN);
+        } else if (gear == "R") {
+            lv_obj_set_style_text_color(gear_label, lv_color_hex(0xFF2222), LV_PART_MAIN);
+        } else {
+            lv_obj_set_style_text_color(gear_label, lv_color_hex(0xE0F7FA), LV_PART_MAIN);
+        }
+        
         lv_obj_center(gear_label);
     }
 }
